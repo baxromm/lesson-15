@@ -1,0 +1,75 @@
+/* Global sozlamalar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f65d46; /* Qorong'u fon */
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Sarlavha qismi */
+h1 {
+    font-size: 36px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.menu p {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Kontent kartalari */
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card .description {
+    font-size: 14px;
+    color: lightgray;
+}
